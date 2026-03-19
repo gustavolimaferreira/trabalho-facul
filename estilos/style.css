@@ -58,7 +58,7 @@ nav ul li a:hover {
     text-align: center;
     border-radius: 10px;
     min-width: 300px;
-    
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 img#foto-perfil {
@@ -73,27 +73,129 @@ img#foto-perfil {
     margin: 40px auto;
     max-width: 80vw;
     background-color: var(--cor-secundaria);
-    color: rgb(245, 244, 244);
-    padding: 40px 20px;
+    color: rgb(245, 244, 244);   
     text-align: center;
     border-radius: 10px;
     min-width: 300px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
+
+
+#hobbies h3 {
+    padding: 15px;
+    background-color: var(--cor-primaria);
+    border-radius: 10px 10px 0 0;
+}
+
 img.hobbies {
-    display: block;
+    
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
-#hobbies ul {
-    list-style: none;
-    padding: 0;
+img.hobbies:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
 
-#hobbies ul li {
-    margin: 20px 0;
+#hobbies p {
+    margin: 20px 0 10px;
     font-size: 1.2em;
+    font-weight: bold;
 }
+
+#hobbies-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.itens {
+    border-radius: 5px;
+    flex: auto;
+    padding: 20px;
+    transition: background-color 0.3s ;
+}
+
+section#apresentacao {
+    margin: 40px auto;
+    max-width: 80vw;
+    background-color: var(--cor-secundaria);
+    color: rgb(245, 244, 244);   
+    text-align: center;
+    border-radius: 10px;
+    min-width: 300px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+#apresentacao h3 {
+    padding: 15px;
+    background-color: var(--cor-primaria);
+    border-radius: 10px 10px 0 0;
+}
+
+#apresentacao article {
+    padding: 60px;
+}
+
+footer {
+    background-color: var(--cor-complementar);
+    color: rgb(245, 244, 244);
+    text-align: center;
+    padding: 8px 0;
+    margin-top: 40px;
+}
+
+/* Página de Formação */
+
+.formacao {
+    margin: 40px auto;
+    max-width: 80vw;
+    background-color: var(--cor-secundaria);
+    color: rgb(245, 244, 244);   
+    border-radius: 10px;
+    min-width: 300px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+#formacao h2 {
+    padding: 15px;
+    background-color: var(--cor-primaria);
+    border-radius: 10px 10px 0 0;
+}
+
+.itens-forma {
+    border-radius: 5px;
+    padding: 20px;
+    transition: background-color 0.3s ;
+}
+
+.itens-forma:hover {
+    background-color: var(--cor-complementar);
+    transform: translate(3px, 3px);
+}
+
+.formacao-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    columns: 0;
+}
+
+.formacao h2 {
+    padding: 15px;
+    background-color: var(--cor-primaria);
+    border-radius: 10px 10px 0 0;     
+}
+
+#rodape-forma {
+    margin-top: 300px;
+}
+
+/* Página de Portfólio */
+
