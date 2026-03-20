@@ -199,3 +199,43 @@ footer {
 
 /* Página de Portfólio */
 
+.portifolio {
+    margin: 40px auto;
+    max-width: 80vw;
+    background-color: var(--cor-secundaria);
+    color: rgb(245, 244, 244);   
+    border-radius: 10px;
+    min-width: 300px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.portifolio h2 {
+    padding: 15px;
+    background-color: var(--cor-primaria);
+    border-radius: 10px 10px 0 0;     
+}
+
+.itens-porti {
+    border-radius: 5px;
+    padding: 20px;
+    transition: background-color 0.3s ;
+}
+
+.itens-porti:hover {
+    background-color: var(--cor-complementar);
+    transform: translate(3px, 3px);
+}
+
+.portifolio-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    columns: 0;
+}
+
+.img-projeto {
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
