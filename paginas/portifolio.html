@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/icone.png" type="image/x-icon">
     <title>Portfólio</title>
     <link rel="stylesheet" href="../estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1 id="titulo">Portifólio - Gustavo Ferreira</h1>
-
-        <nav>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <nav id="menu">
             <ul>
                 <li><a href="../sobre.html">Sobre mim</a></li>
                 <li><a href="../paginas/formacao.html">Formação</a></li>
@@ -50,5 +52,23 @@
     <footer id="rodape-porti">
         <p>Gustavo Ferreira - 2026</p>
     </footer>
+
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+
+        function mudouTamanho() {
+            if(window.innerWidth <= 600) {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
