@@ -194,7 +194,7 @@ footer {
 }
 
 #rodape-forma {
-    margin-top: 300px;
+    margin-top: 280px;
 }
 
 /* Página de Portfólio */
@@ -238,4 +238,8 @@ footer {
     max-width: 300px;
     border-radius: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+#rodape-porti {
+    margin-top: 140px;
 }
