@@ -80,8 +80,6 @@ img#foto-perfil {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
-
-
 #hobbies h3 {
     padding: 15px;
     background-color: var(--cor-primaria);
@@ -242,4 +240,43 @@ footer {
 
 #rodape-porti {
     margin-top: 140px;
+}
+
+/* Página de Contato */
+
+#formulario {
+    padding: 50px;
+    margin: 40px auto;
+    max-width: 80vw;
+    background-color: var(--cor-secundaria);
+    color: rgb(245, 244, 244);   
+    border-radius: 10px;
+    min-width: 300px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+#nome, #email, #mensagem {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#mandar {
+    background-color: var(--cor-primaria);
+    color: rgb(245, 244, 244);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#mandar:hover {
+    background-color: var(--cor-complementar);
+}
+
+#rodape-contato {
+    margin-top: 400px;
 }
